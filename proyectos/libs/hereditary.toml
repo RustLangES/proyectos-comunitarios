@@ -1,0 +1,8 @@
+name= ["Hereditary"]
+description= "Una libreria para emular herencia en Rust"
+link= "https://github.com/datapture/hereditary"
+brand_src= "H"
+button_link= "https://github.com/superoptimo"
+button_text= "Francisco Leon"
+brand_as_letter= true
+button_bg_color= "black"
