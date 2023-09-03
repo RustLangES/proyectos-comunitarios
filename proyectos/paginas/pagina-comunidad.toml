@@ -1,0 +1,8 @@
+name = ["Rust ", "Lang", "en", "Español"]
+description = "Pagina de la comunidad de Rust en Español"
+link = "https://github.com/RustLangES/rust-book-es"
+brand_src = "https://www.rust-lang.org/static/images/rust-logo-blk.svg"
+button_link = "https://github.com/RustLangES"
+button_text = ""
+brand_as_letter = false
+button_bg_color = "white"

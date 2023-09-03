@@ -1,0 +1,6 @@
+name = ["Rust ", "Barcelona"]
+description = "Comunidad de Rust en Barcelona"
+link = "https://discord.gg/DeZKCCyMcq"
+icon = "discord"
+brand_src = "./RustBCN.webp"
+brand_alt = "Logo de Rust Barcelona"

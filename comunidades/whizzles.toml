@@ -1,0 +1,6 @@
+name = ["Whizzles"]
+description = "Comunidad de Open Source con fuertes raices en Rust."
+link = "https://discord.gg/b9EbVnSkuw"
+icon = "discord"
+brand_src = "./Whizzles.webp"
+brand_alt = "Logo de Whizzles"

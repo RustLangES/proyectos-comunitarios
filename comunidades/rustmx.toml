@@ -1,0 +1,6 @@
+name = ["Rust", "MX"]
+description = "Comunidad de Rust en Mexico"
+link = "https://t.me/RustMX"
+icon = "telegram"
+brand_src = "./RustMX-min.png"
+brand_alt = "Logo de RustMX"
