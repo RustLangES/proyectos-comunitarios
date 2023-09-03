@@ -2,5 +2,5 @@ name = ["Salamandra ", "Devs"]
 description = "Comunidad de Programación en general."
 link = "https://t.me/salamandradevs"
 icon = "telegram"
-brand_src = "Salamandra.png"
+brand_src = "./Salamandra.png"
 brand_alt = "Logo de Salamandra Devs"
