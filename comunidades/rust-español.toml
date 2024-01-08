@@ -2,5 +2,5 @@ name = ["Rust ", "Español"]
 description = "Anteriormente Rust Argentina, hoy una comunidad internacional."
 link = "https://t.me/rust_lang_es"
 icon = "telegram"
-brand_src = "./RustGeneral.jpg"
+brand_src = "./RustGeneral.webp"
 brand_alt = "Logo de Rust Español"

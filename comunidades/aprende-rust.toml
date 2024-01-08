@@ -2,5 +2,5 @@ name = ["Aprende ", "Rust"]
 description = "Comunidad de Rust en Mexico"
 link = "https://t.me/aprenderrust"
 icon = "telegram"
-brand_src = "./aprender-rust-min.jpg"
+brand_src = "./aprender-rust-min.webp"
 brand_alt = "Logo de Aprende Rust"
