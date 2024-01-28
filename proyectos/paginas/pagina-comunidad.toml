@@ -1,7 +1,7 @@
 name = ["Rust ", "Lang", "en", "Español"]
 description = "Pagina de la comunidad de Rust en Español"
 link = "https://github.com/RustLangES/RustLangES.github.io"
-brand_src = "https://www.rust-lang.org/static/images/rust-logo-blk.svg"
+brand_src = "./logo-rust-page.svg"
 button_link = "https://github.com/RustLangES"
 button_text = ""
 brand_as_letter = false

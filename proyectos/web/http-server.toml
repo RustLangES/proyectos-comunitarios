@@ -1,7 +1,7 @@
 name = ["http-server"]
 description = "Un command line HTTP server simple y configurable"
 link = "https://github.com/http-server-rs/http-server"
-brand_src = "https://github.com/http-server-rs/http-server/raw/main/assets/logo.svg"
+brand_src = "./logo-http-server.svg"
 button_link = "https://github.com/EstebanBorai"
 button_text = "Esteban Borai"
 brand_as_letter = false

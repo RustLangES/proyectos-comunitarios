@@ -1,7 +1,7 @@
 name = ["Freya"]
 description = "Una libreria para hacer GUI nativas utilizando Dioxus y Skia"
 link = "https://github.com/marc2332/freya"
-brand_src = "https://github.com/marc2332/freya/raw/main/logo.svg"
+brand_src = "./logo-freya.avif"
 button_link = "https://github.com/marc2332"
 button_text = "Marc Espín"
 brand_as_letter = false
