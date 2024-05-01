@@ -1,0 +1,6 @@
+name = ["Rust ", "Colombia"]
+description = "La comunidad de Rust Colombia tiene dos sedes, una en Medellin y otra en Bototá."
+link = "https://discord.gg/krm22PuDVw"
+icon = "discord"
+brand_src = "./rust-colombia.webp"
+brand_alt = "Logo de Rust Colombia"

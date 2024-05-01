@@ -1,0 +1,6 @@
+name = ["Rust ", "Turquia"]
+description = "Comunidad de Rust en Turquia"
+link = "https://bento.me/turkiye-rust-community"
+icon = "web"
+brand_src = "./rust_turquia.webp"
+brand_alt = "Logo de Rust turquia"

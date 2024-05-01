@@ -1,0 +1,6 @@
+name = ["Rust ", "Ecuador"]
+description = "Comunidad de Rust en Ecuador"
+link = "https://t.me/rustecuador"
+icon = "telegram"
+brand_src = "./rust_ecuador.webp"
+brand_alt = "Logo de Rust Ecuador"
