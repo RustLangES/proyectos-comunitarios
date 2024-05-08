@@ -1,0 +1,6 @@
+name = ["Mad", "Rust"]
+description = "La primera comunidad de Rust en Madrid"
+link = "https://t.me/rustmadrid"
+icon = "telegram"
+brand_src = "./madrust.webp"
+brand_alt = "Logo de MadRust"
