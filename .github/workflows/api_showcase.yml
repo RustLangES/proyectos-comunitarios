@@ -1,0 +1,46 @@
+name: Make PR from Cangrebot
+on:
+  repository_dispatch:
+    types: 
+      - 'showcase_pull'
+
+jobs:
+  make_pr:
+    runs-on: ubuntu-latest
+    env:
+      CATEGORY: ${{ github.event.client_payload.category }}
+      SLUG: ${{ github.event.client_payload.slug }}
+      NAME: ${{ github.event.client_payload.name }}
+      DESCRIPTION: ${{ github.event.client_payload.description }}
+      LINK: ${{ github.event.client_payload.link }}
+      BRAND_SRC: ${{ github.event.client_payload.brand_src }}
+      BUTTON_LINK: ${{ github.event.client_payload.button_link }}
+      BUTTON_TEXT: ${{ github.event.client_payload.button_text }}
+      BRAND_AS_LETTER: ${{ github.event.client_payload.brand_as_letter }}
+      BUTTON_BG_COLOR: ${{ github.event.client_payload.button_bg_color }}
+    steps:
+      - uses: actions/checkout@v4
+        # Create file
+      - name: Create file
+        run: |
+          mkdir -p "./proyectos/$CATEGORY"
+          echo "name = $NAME">"./proyectos/$CATEGORY/$SLUG.toml"
+          echo "description = \"$DESCRIPTION\"">>"./proyectos/$CATEGORY/$SLUG.toml"
+          echo "link = \"$LINK\"">>"./proyectos/$CATEGORY/$SLUG.toml"
+          echo "brand_src = \"$BRAND_SRC\"">>"./proyectos/$CATEGORY/$SLUG.toml"
+          echo "button_link = \"$BUTTON_LINK\"">>"./proyectos/$CATEGORY/$SLUG.toml"
+          echo "button_text = \"$BUTTON_TEXT\"">>"./proyectos/$CATEGORY/$SLUG.toml"
+          echo "brand_as_letter = $BRAND_AS_LETTER">>"./proyectos/$CATEGORY/$SLUG.toml"
+          echo "button_bg_color = \"$BUTTON_BG_COLOR\"">>"./proyectos/$CATEGORY/$SLUG.toml"
+
+        # TODO: modify PR details
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GH_API_PAT }}
+          commit-message: "chore(automate): new project"
+          branch: showcase_${{ env.SLUG }}
+          title: "[AUTOMATE] New Prject ${{ env.SLUG }}"
+          reviewers: SergioRibera
+          # TODO: to talk
+          # team-reviewers: RustLangES/content
