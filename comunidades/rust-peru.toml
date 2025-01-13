@@ -1,0 +1,6 @@
+name = ["Rust ", "Peru"]
+description = "Comunidad de Rust en Peru"
+link = "https://peru.rustlang-es.org/"
+icon = "web"
+brand_src = "./rust-peru.webp"
+brand_alt = "Logo de Rust Peru"
