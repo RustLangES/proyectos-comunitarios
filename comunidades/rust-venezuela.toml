@@ -1,0 +1,6 @@
+name = ["Rust ", "Venezuela"]
+description = "Comunidad de Rust en Venezuela"
+link = "https://t.me/rustlangVE"
+icon = "telegram"
+brand_src = "./rust-venezuela.webp"
+brand_alt = "Logo de Rust Venezuela"
