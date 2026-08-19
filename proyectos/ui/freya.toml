@@ -1,5 +1,5 @@
 name = ["Freya"]
-description = "Una libreria para hacer GUI nativas utilizando Dioxus y Skia"
+description = "Una libreria para hacer GUI nativas con Rust"
 link = "https://github.com/marc2332/freya"
 brand_src = "./logo-freya.avif"
 button_link = "https://github.com/marc2332"
