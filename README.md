@@ -23,3 +23,24 @@ icon = ""
 brand_src = ""
 brand_alt = ""
 ```
+
+## Agregar un Recurso
+Puedes usar este template. `language` es `"es"` o `"en"`, `kind` es uno de `"libro"`, `"guia"`, `"video"` o `"curso"` y `featured` es opcional
+```toml
+name = ""
+description = ""
+link = ""
+language = ""
+kind = ""
+featured = false
+```
+
+## Agregar un Canal
+Puedes usar este template. La imagen va en `canales/assets` y `twitch` es opcional
+```toml
+name = ""
+description = ""
+avatar = "./"
+youtube = ""
+twitch = ""
+```
