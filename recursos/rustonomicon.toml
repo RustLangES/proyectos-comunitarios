@@ -2,4 +2,4 @@ name = "The Rustonomicon"
 description = "Explora los aspectos oscuros de la programación no segura en Rust con este libro, que ofrece detalles espeluznantes y prácticos para aquellos interesados en adentrarse en el código no seguro. Una inmersión intensa en el lado oscuro de Rust."
 link = "https://doc.rust-lang.org/nomicon/intro.html"
 language = "en"
-kind = "libro"
+kinds = ["libro"]

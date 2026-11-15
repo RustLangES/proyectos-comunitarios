@@ -2,4 +2,4 @@ name = "Rust para C#/.NET Developers"
 description = "La guía esta hecha por la misma Microsoft y es para desarrolladores experimentados en C#/.NET que exploran Rust. Ofrece una breve comparación, enlaces a recursos y respuestas rápidas."
 link = "https://dotnet-book.rustlang-es.org/"
 language = "es"
-kind = "guia"
+kinds = ["libro", "guia",]

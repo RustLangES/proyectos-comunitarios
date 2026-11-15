@@ -2,5 +2,5 @@ name = "Comprehensive Rust"
 description = "Curso gratuito y de código abierto desarrollado por el equipo de Android de Google. Cubre todos los aspectos de Rust, desde la sintaxis básica hasta temas avanzados. Se ven algunos temas especializados como Android, Chromium y Bare-metal."
 link = "https://google.github.io/comprehensive-rust/es/index.html"
 language = "es"
-kind = "curso"
+kinds = ["libro", "curso"]
 featured = true

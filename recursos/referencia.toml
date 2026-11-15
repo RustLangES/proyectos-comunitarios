@@ -2,4 +2,4 @@ name = "Libro de Referencia de Rust"
 description = "Este libro es la guía definitiva para dominar Rust, explicando construcciones, memoria, concurrencia y más, con apéndices y referencias. Ideal para sumergirse en la programación con Rust."
 link = "https://doc.rust-lang.org/reference/introduction.html"
 language = "en"
-kind = "libro"
+kinds = ["libro"]

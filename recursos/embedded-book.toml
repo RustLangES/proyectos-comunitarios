@@ -2,4 +2,4 @@ name = "Embedded Book"
 description = "Guía para usar Rust en sistemas integrados 'Bare Metal', ideal para programación integrada con seguridad y conceptos avanzados. Cubre configuración, prácticas y manuales, enfocado en ARM Cortex-M, sin asumir conocimientos previos."
 link = "https://docs.rust-embedded.org/book/intro/index.html"
 language = "en"
-kind = "libro"
+kinds = ["libro"]

@@ -2,5 +2,5 @@ name = "El lenguaje de Programación Rust"
 description = "Cariñosamente conocido como “el libro”, El Lenguaje de Programación Rust te dará una visión del lenguaje desde los principios básicos. Construirás unos cuantos proyectos por el camino y, al final, tendrás una comprensión sólida del lenguaje."
 link = "https://book.rustlang-es.org/"
 language = "es"
-kind = "libro"
+kinds = ["libro"]
 featured = true
