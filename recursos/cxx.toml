@@ -1,0 +1,5 @@
+name = "CXX - Safe Interop"
+description = "CXX facilita la integración segura entre Rust y C++, evitando errores comunes al llamar código de uno al otro. Con análisis estático y generadores de código, protege las invariantes de ambos lenguajes, asegurando una integración eficiente y correcta."
+link = "https://cxx.rs/"
+language = "en"
+kinds = ["libro"]

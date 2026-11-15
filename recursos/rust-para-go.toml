@@ -1,0 +1,5 @@
+name = "Rust para Go Devs"
+description = "Explica en qué se diferencian Go y Rust, qué cambia al migrar un proyecto y qué ventajas tiene pasarse a Rust."
+link = "https://go-book.rustlang-es.org/es/"
+language = "es"
+kinds = ["libro", "guia"]

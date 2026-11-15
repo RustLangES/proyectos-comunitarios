@@ -1,0 +1,5 @@
+name = "Piny4man"
+description = "Canal generalmente de resubidos, Piny4man suele stremear en Twitch contenido de Rust, desde backend con Axum y Actix a frontend con Leptos y Dioxus."
+avatar = "./piny4man.avif"
+youtube = "https://www.youtube.com/@piny4man"
+twitch = "https://www.twitch.tv/piny4man"
