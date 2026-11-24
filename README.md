@@ -14,7 +14,7 @@ button_bg_color = ""
 ```
 
 ## Agregar una Comunidad
-Puedes usar este template
+Puedes usar este template. `country` es opcional
 ```toml
 name = [""]
 description = ""
@@ -22,6 +22,7 @@ link = ""
 icon = ""
 brand_src = ""
 brand_alt = ""
+country = ""
 ```
 
 ## Agregar un Recurso
